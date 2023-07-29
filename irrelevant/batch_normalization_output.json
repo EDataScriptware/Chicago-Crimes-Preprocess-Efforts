@@ -1,0 +1,130 @@
+{
+    "products": [
+        {
+            "name": "Oranges",
+            "price": 1.75,
+            "stock_quantity": 80,
+            "normalized_price": -0.7548968910525706
+        },
+        {
+            "name": "Eggs",
+            "price": 3.25,
+            "stock_quantity": 60,
+            "normalized_price": -0.14843802677927373
+        },
+        {
+            "name": "Cereal",
+            "price": 4.99,
+            "stock_quantity": 40,
+            "normalized_price": 0.5550542557777507
+        },
+        {
+            "name": "Bananas",
+            "price": 0.99,
+            "stock_quantity": 120,
+            "normalized_price": -1.0621693822843743
+        },
+        {
+            "name": "Yogurt",
+            "price": 2.49,
+            "stock_quantity": 65,
+            "normalized_price": -0.45571051801107737
+        },
+        {
+            "name": "Cheese",
+            "price": 3.75,
+            "stock_quantity": 55,
+            "normalized_price": 0.05371492797849189
+        },
+        {
+            "name": "Halal Chicken",
+            "price": 7.99,
+            "stock_quantity": 50,
+            "normalized_price": 1.7679719843243444
+        },
+        {
+            "name": "Chicken",
+            "price": 4.99,
+            "stock_quantity": 30,
+            "normalized_price": 0.5550542557777507
+        },
+        {
+            "name": "Tomatoes",
+            "price": 1.49,
+            "stock_quantity": 90,
+            "normalized_price": -0.8600164275266086
+        },
+        {
+            "name": "Pasta",
+            "price": 1.79,
+            "stock_quantity": 85,
+            "normalized_price": -0.7387246546719494
+        },
+        {
+            "name": "Carrots",
+            "price": 1.25,
+            "stock_quantity": 100,
+            "normalized_price": -0.9570498458103361
+        },
+        {
+            "name": "Potatoes",
+            "price": 2.2,
+            "stock_quantity": 70,
+            "normalized_price": -0.5729592317705815
+        },
+        {
+            "name": "Ice Cream",
+            "price": 4.5,
+            "stock_quantity": 25,
+            "normalized_price": 0.3569443601151403
+        },
+        {
+            "name": "Juice",
+            "price": 2.75,
+            "stock_quantity": 60,
+            "normalized_price": -0.3505909815370393
+        },
+        {
+            "name": "Coffee",
+            "price": 5.99,
+            "stock_quantity": 40,
+            "normalized_price": 0.9593601652932819
+        },
+        {
+            "name": "Soda",
+            "price": 1.0,
+            "stock_quantity": 150,
+            "normalized_price": -1.058126323189219
+        },
+        {
+            "name": "Watermelon",
+            "price": 6.99,
+            "stock_quantity": 15,
+            "normalized_price": 1.3636660748088132
+        },
+        {
+            "name": "Avocado",
+            "price": 2.8,
+            "stock_quantity": 40,
+            "normalized_price": -0.33037568606126283
+        },
+        {
+            "name": "Salmon",
+            "price": 10.5,
+            "stock_quantity": 20,
+            "normalized_price": 2.782779817208328
+        },
+        {
+            "name": "Brown Rice",
+            "price": 3.0,
+            "stock_quantity": 60,
+            "normalized_price": -0.24951450415815654
+        },
+        {
+            "name": "Snack Bars",
+            "price": 1.5,
+            "stock_quantity": 80,
+            "normalized_price": -0.8559733684314534
+        }
+    ]
+}

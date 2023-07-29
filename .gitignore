@@ -1,0 +1,6 @@
+*.pyc
+libraries/common/cache/preprocessed_IUCR_mapping.json
+libraries/common/cache/preprocessed_data.json
+libraries/common/cache/IUCR_mapping.json
+libraries/common/cache/Crimes_-_2001_to_Present.json
+*.csv
