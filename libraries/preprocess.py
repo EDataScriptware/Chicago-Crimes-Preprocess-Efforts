@@ -1,6 +1,7 @@
 import json
 import os
 
+from math import isnan
 from typing import List
 from datetime import datetime
 
@@ -32,7 +33,9 @@ def get_preprocessed_data(original_recs: List[dict]) -> List[dict]:
 def preprocess_data(original_recs):
     pre_processed_recs = []
     for og_rec in original_recs:
-        pre_processed_recs.append(preprocess_data_record(og_rec))
+        preprocess_rec = preprocess_data_record(og_rec) 
+        if preprocess_rec:
+            pre_processed_recs.append(preprocess_rec)
     return pre_processed_recs
 
 def preprocess_data_record(rec: dict):
@@ -43,6 +46,9 @@ def preprocess_data_record(rec: dict):
         primary_charge = IUCR_MAPPING[rec['IUCR']]['primary']
         secondary_charge = IUCR_MAPPING[rec['IUCR']]['secondary']
 
+    if isnan(rec['District']) or isnan(rec['Beat']):
+        return {}
+
     return {
         'id': f"{rec['ID']}_{rec['Case Number']}",
         'date': datetime.strptime(rec['Date'], DATE_FORMAT).strftime('%Y-%m-%d'),
@@ -50,7 +56,8 @@ def preprocess_data_record(rec: dict):
         'location_type': rec['Location Description'],
         'general_charge': primary_charge,
         'detailed_charge': secondary_charge,
-        'description': rec['Description'],
         'arrest_made': rec['Arrest'],
-        'domestic_related': rec['Domestic']
+        'domestic_related': rec['Domestic'],
+        'district': int(float(rec['District'])),
+        'beat': int(float(rec['Beat']))
     }

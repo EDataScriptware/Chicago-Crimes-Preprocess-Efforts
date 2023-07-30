@@ -27,9 +27,13 @@ The project is only intended to satisfy the expectations of the **Final Project 
 
     a. The file must be downloaded and placed in the `external` directory with the exact naming `Chicago_Police_Department_-_Illinois_Uniform_Crime_Reporting__IUCR__Codes.csv`. 
 
-3. Install Required Library Packages by performing `pip3 install {library}` in the terminal.
+3. The Beats Chicago Map was obtained from https://data.cityofchicago.org/Public-Safety/Boundaries-Police-Beats-current-/aerh-rz74
 
-4. Running the Script:
+    a. The file must be downloaded as a .csv format and placed in the `external` diectory with the exact naming `PoliceBeatDec2012.csv`. 
+
+4. Install Required Library Packages by performing `pip3 install {library}` in the terminal.
+
+5. Running the Script:
 
     a. Windows User 
         

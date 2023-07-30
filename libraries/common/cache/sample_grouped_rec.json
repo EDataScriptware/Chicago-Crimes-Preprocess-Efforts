@@ -1,0 +1,46 @@
+{
+    "111": {
+        "district": 1,
+        "data": {
+            "total_arrest_made": 8212,
+            "total_domestic_related": 943,
+            "arrest_type": {
+                "THEFT": 17992,
+                "DECEPTIVE PRACTICE": 3558,
+                "SEX OFFENSE": 107,
+                "BATTERY": 2656,
+                "CRIMINAL DAMAGE": 1499,
+                "NARCOTICS": 683,
+                "OTHER OFFENSE": 1639,
+                "PUBLIC PEACE VIOLATION": 198,
+                "CRIMINAL SEXUAL ASSAULT": 91,
+                "BURGLARY": 434,
+                "LIQUOR LAW VIOLATION": 36,
+                "OFFENSE INVOLVING CHILDREN": 33,
+                "CRIMINAL TRESPASS": 1413,
+                "WEAPONS VIOLATION": 74,
+                "ROBBERY": 772,
+                "MOTOR VEHICLE THEFT": 652,
+                "ASSAULT": 1366,
+                "OBSCENITY": 5,
+                "INTERFERENCE WITH PUBLIC OFFICER": 43,
+                "HUMAN TRAFFICKING": 1,
+                "ARSON": 8,
+                "GAMBLING": 3,
+                "PROSTITUTION": 27,
+                "NON-CRIMINAL": 1,
+                "INTIMIDATION": 14,
+                "STALKING": 23,
+                "KIDNAPPING": 10,
+                "CONCEALED CARRY LICENSE VIOLATION": 1,
+                "HOMICIDE": 6,
+                "OTHER NARCOTIC VIOLATION": 3,
+                "RITUALISM": 0,
+                "PUBLIC INDECENCY": 3,
+                "NON - CRIMINAL": 0,
+                "NON-CRIMINAL (SUBJECT SPECIFIED)": 0,
+                "DOMESTIC VIOLENCE": 0
+            }
+        }
+    }
+}
