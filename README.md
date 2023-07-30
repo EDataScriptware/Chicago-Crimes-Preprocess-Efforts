@@ -31,7 +31,7 @@ The project is only intended to satisfy the expectations of the **Final Project 
     a. Windows User 
         
         1. Enter Command Prompt/Terminal
-        2. Run `py main.py``
+        2. Run `py main.py`
 
     b. Mac/Linux User
         
