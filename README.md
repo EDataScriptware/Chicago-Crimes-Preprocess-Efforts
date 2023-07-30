@@ -1,10 +1,13 @@
-# COMP-6130-Final-Project
+# Final Project for COMP-6130 - Data Mining
+
+## Project Topic
+Crimes 2001 - Present in City of Chicago 
 
 ## Author
 Edward Riley
 
 ## Disclaimer
-The project is only intended to satisfy the expectations of the **Final Project for COMP-6130** - Data Mining. The data results shared here are presented objectively and without any affiliation to or endorsement by any political party or external organizations. Our aim is to provide unbiased information and foster constructive discussions. We encourage respectful engagement from all perspectives. These data are authentic and obtained from the **United States of America's Government** website resources based on the __City of Chicago__.
+The project is only intended to satisfy the expectations of the **Final Project for COMP-6130 - Data Mining**. The data results shared here are presented objectively and without any affiliation to or endorsement by any political party or external organizations. Our aim is to provide unbiased information and foster constructive discussions. We encourage respectful engagement from all perspectives. These data are authentic and obtained from the **United States of America's Government** website resources based on the __City of Chicago__.
 
 ## Required Python Libraries
 - Pandas
