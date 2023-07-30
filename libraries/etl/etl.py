@@ -37,11 +37,11 @@ def get_data():
     return data
 
 def get_IUCR_codes_mapping():
-    file_name = 'Chicago_Police_Department_-_Illinois_Uniform_Crime_Reporting__IUCR__Codes'
+    file_name = 'Chicago_Police_Department_-_Illinois_Uniform_Crime_Reporting__IUCR__Codes.csv'
     cached_file_location = get_cache_file('IUCR_mapping.json')
 
     if not os.path.exists(cached_file_location):
-        data = read_csv(open(get_external_file(f'{file_name}.csv'), 'r')).to_dict('records')
+        data = read_csv(open(get_external_file({file_name}), 'r')).to_dict('records')
         json.dump(data, open(cached_file_location, 'w'))
     else:
         print("Using Cache'd IUCR File")
