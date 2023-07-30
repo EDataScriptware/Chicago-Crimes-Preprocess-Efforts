@@ -49,9 +49,5 @@ The project is only intended to satisfy the expectations of the **Final Project 
     **Note:** It will take time.
 
 
-## ETL & Preprocess Times:
-![image](https://github.com/EDataScriptware/COMP-6130-Final-Project/assets/55459510/84785aca-f026-426a-b869-53058faca59c)
-
-
 ## Contact Me: 
 mason.rileyzero@gmail.com
