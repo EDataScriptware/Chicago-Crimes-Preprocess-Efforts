@@ -1,4 +1,5 @@
-# Final Project for COMP-6130 - Data Mining
+# Chicago Crimes Preprocess Efforts
+AKA a tossed out final project effort - there is no numerical data that can be used for batch normalization
 
 ## Project Topic
 Crimes 2001 - Present in City of Chicago 
